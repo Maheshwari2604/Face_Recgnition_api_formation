@@ -21,6 +21,13 @@ from django.conf.urls.static import static
 
 # app_name = 'users'
 
+admin.site.site_header = 'Face Recognition admin'
+admin.site.site_title = 'Face Recognition admin'
+#admin.site.site_url = 'http://Face_recognition.com/'
+admin.site.index_title = 'Face Recognition administration'
+admin.empty_value_display = '**Empty**'
+
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^' , include('frontend.urls')),
