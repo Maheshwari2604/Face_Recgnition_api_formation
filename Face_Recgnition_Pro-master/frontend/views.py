@@ -11,6 +11,7 @@ from rest_framework import viewsets
 from .serializers import UserSerializer
 import os
 
+# comment line
 # class userview(ListModelMixin , GenericAPIView):
 #     print('hey')
 #     serializer_class = UserSerializer
